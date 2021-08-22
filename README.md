@@ -307,3 +307,42 @@ Enabele your service to start on startup
 ```
 shystemctl enable manage
 ```
+
+## Vi Editor
+
+1. Vi editor have two mode
+
+- Command Mode - press `esc` to switch in command mode
+- Insert Mode - press `i` to swich in insert mode
+
+2. To move around
+
+- up - `k` , `arraow-up`
+- down - `j` , `arrow-down`
+- left - `h`, `arraow-left`
+- right - `l`, `arraow-right`
+
+3. Delete
+
+- `x` - delete a carecter
+- `dd` - delete entire line
+
+3. Copy a line and paste
+
+- copy - `yy`
+- paster - `p`
+
+4. Scroll page up and down
+
+- up - `ctrl + u`
+- down - `ctrl + d`
+
+5. Commands
+
+- before starting command - `:`
+- save - `:w`
+- save with file name - `:w filename`
+- quit wirhout save - `:q`
+- save changes and quit - `:wq`
+- Find the word - `/of`
+- to move cusor to all occurances of the word - `n`
